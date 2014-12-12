@@ -1,0 +1,66 @@
+$midnight-blue: #036;
+$boquet: #b37399;
+$wafer: #e1d7d2;
+$patina : #699;
+
+body {
+	background-color: $wafer;
+	color: $midnight-blue;
+	padding: 10px
+}
+
+h2 {
+	color: $patina;
+	font-weight: 900
+
+}
+
+.navbar-custom {
+	background-color: $midnight-blue;
+	padding: 5px;
+
+
+	ul{
+
+		li{
+			font-weight: bold;
+			
+			a:hover{
+				background-color: $patina;
+				color: $midnight-blue;
+
+			}
+
+
+		}
+	}
+
+
+}
+
+h4{
+	@extend h2;
+	text-align: center;
+	color: darken($patina, 10%);
+
+}
+
+
+p {
+	padding: 1px;
+}
+
+
+img {
+
+  display: none;
+}
+@media screen and (min-width: 750px) {
+  img {
+  	width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+

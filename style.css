@@ -1,0 +1,36 @@
+body {
+  background-color: #e1d7d2;
+  color: #036;
+  padding: 10px; }
+
+h2, h4 {
+  color: #699;
+  font-weight: 900; }
+
+.navbar-custom {
+  background-color: #036;
+  padding: 5px; }
+  .navbar-custom ul li {
+    font-weight: bold; }
+    .navbar-custom ul li a:hover {
+      background-color: #699;
+      color: #036; }
+
+h4 {
+  text-align: center;
+  color: #527a7a; }
+
+p {
+  padding: 1px; }
+
+img {
+  display: none; }
+
+@media screen and (min-width: 750px) {
+  img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; } }
+
+/*# sourceMappingURL=style.css.map */
